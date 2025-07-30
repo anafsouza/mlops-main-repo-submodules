@@ -32,4 +32,4 @@ jobs:
         run: make pull-submodules
 
       - name: Commit and push if there are changes
-        run: make commit-submodules
+        run: make push-submodules
